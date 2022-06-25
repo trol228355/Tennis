@@ -4,6 +4,7 @@ body {
     background-color: tomato;
     padding: 0px;
     margin: 0px;
+    color: black;
 }
 
 .wrapper {
@@ -41,15 +42,25 @@ header {
     font-size: 25px;
 }
 
-.hi h2{
-    font-size: 30px;
+.gal {
+    display: inline-block;
+    width: 280px;
+    margin-left: 163px;
+    margin-right: 163px;
+    
 }
 
-.AOW {
-    text-align: right;
+.td:focus {
+    background-color: aquamarine;
 }
 
+.gal img {
+    height: 450px;
+}
 
+.sp {
+    color: white;
+}
 
 .rait {
     text-align: center;
@@ -72,7 +83,8 @@ h1 {
 }
 
 .pervi {
-    background-image: linear-gradient(to right bottom, lime, aquamarine);
+    background-color: antiquewhite;
+    padding: 15px;
 }
 
 .raiting p{
@@ -80,7 +92,9 @@ h1 {
 }
 
 .raiting {
-    background-color: deepskyblue;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 .rait td:hover {
@@ -102,20 +116,22 @@ table {
 
 .test {
     align-items: center;
+    color: white;
 }
 
-.footer {
-    background-color: firebrick;
-    color: aliceblue;
-    padding: 10px;
-    z-index: 7;
+.right:focus {
+    background-color: lime;
+    color: black;
 }
 
-.footer p{
-    background-color: blueviolet;
-    margin: 10px;
-    padding: 10px;
-    z-index: 10;
+.non:focus {
+    background-color: red;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .kodap {
@@ -183,7 +199,7 @@ table {
 .content {
 	position: relative;
 	z-index: 5;
-	background-color: #794f45;
+	background-color: black;
 }
 .content__container {
 	margin: 0px;
