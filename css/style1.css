@@ -44,8 +44,9 @@ header {
 
 .gal {
     display: inline-block;
-    width: 280px;
-    text-align:
+    width: 380px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .gal2 {
