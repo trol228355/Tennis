@@ -45,9 +45,19 @@ header {
 .gal {
     display: inline-block;
     width: 280px;
-    margin-left: 163px;
-    margin-right: 163px;
-    
+    text-align:
+}
+
+.gal2 {
+    display: inline-block;
+    width: 280px;
+    text-align:center;
+}
+
+.gal3{
+    display: inline-block;
+    width: 280px;
+    text-align:right;
 }
 
 .td:focus {
